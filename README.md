@@ -7,11 +7,16 @@ dizisinin Binary-Search-Tree aşamalarını yazınız.
 
 ##cevap1
 
----------------5-----------------
-------4<------------------>6-----
-----2---3<------------->7-----8--
----0-1<------------------------>9
-
+            
+            
+         5         
+        / \
+       4   6
+      / \  / \
+     2   3 7  8
+    / \         \
+    0  1          9     
+     
 0,1,9 leaf 
 
 root = 5
@@ -28,3 +33,6 @@ Rakamlar sırasıyla soldan sağa doğru artan şekilde ve yukarıdan aşağıya
 Bu sayede eleman ekleme ve bulmak daha kolay ve daha az zaman harcanarak yapılmış olur.
 
 ##MeltemSavaş
+
+
+    
